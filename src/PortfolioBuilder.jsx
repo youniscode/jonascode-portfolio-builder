@@ -474,6 +474,21 @@ export default function PortfolioBuilder() {
               >
                 View Source →
               </a>
+              <div className="mt-2">
+                <a
+                  href="https://github.com/youniscode/jonascode-portfolio-builder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-300"
+                >
+                  ⭐ Star on GitHub
+                  <img
+                    src="https://img.shields.io/github/stars/youniscode/jonascode-portfolio-builder?style=social"
+                    alt="GitHub stars"
+                    className="opacity-80"
+                  />
+                </a>
+              </div>
 
               {/* save status */}
               <div className="mt-2 text-xs text-slate-400">

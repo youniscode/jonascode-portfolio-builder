@@ -466,6 +466,15 @@ export default function PortfolioBuilder() {
                 Generate QR Code
               </button>
 
+              <a
+                href="https://github.com/youniscode/jonascode-portfolio-builder"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-indigo-500 text-indigo-300 px-4 py-2 rounded-xl text-sm transition-colors duration-200 hover:bg-indigo-600/10 focus:outline-none focus:ring-2 focus:ring-indigo-500/40 active:scale-[0.98]"
+              >
+                View Source →
+              </a>
+
               {/* save status */}
               <div className="mt-2 text-xs text-slate-400">
                 {lastSavedAt ? <>💾 {savedLabel(lastSavedAt)}</> : null}
